@@ -1,0 +1,28 @@
+# DimScan — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core image processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=9.5.0
+
+# OCR (primary)
+pytesseract>=0.3.10
+# Tesseract binary must also be installed on your OS:
+#   Ubuntu/Debian : sudo apt install tesseract-ocr
+#   macOS         : brew install tesseract
+#   Windows       : https://github.com/UB-Mannheim/tesseract/wiki
+
+# OCR (optional fallback)
+easyocr>=1.7.0         # pip install easyocr
+# requests is needed for the Gemini backend
+requests>=2.31.0
+
+# Excel output
+openpyxl>=3.1.2
+
+# Streamlit web app
+streamlit>=1.35.0
+
+# Testing
+pytest>=7.4.0
